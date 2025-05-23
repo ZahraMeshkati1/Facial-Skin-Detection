@@ -37,3 +37,10 @@ Additionally, the `segmentation_visualize` function is used to render the image 
 - Then, only **test** pixels are colored based on their predicted labels.  
 - **Train** pixels remain black.
 
+
+--------------------------------------------------------------
+## Implementation Using Scikit-Learn
+For implementation, we use the `sklearn` library:
+- We import `KNeighborsClassifier` from `sklearn` for KNN classification.
+- We split the dataset into train and test sets using `train_test_split`.
+- We import various evaluation metrics from `sklearn.metrics`, including `accuracy_score`.
